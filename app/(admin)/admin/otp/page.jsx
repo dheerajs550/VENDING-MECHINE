@@ -12,7 +12,7 @@ function OtpPage() {
      const HeadingText2 = { HeadingText6: "Didn't receive the OTP?",
                             HeadingText7: "Resend",};
 
-     const bottomBtnRoot = {  Cancel:"/user/popup",
+     const bottomBtnRoot = {  Cancel:"/admin/popup/otpcancel",
                               Continue:"/admin/report"};
 
   return (

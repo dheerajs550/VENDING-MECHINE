@@ -6,9 +6,9 @@ import React from 'react'
 
 function GenerateReport() {
           const HeadingText = { HeadingText1:"Seles Report"};
-          const bottomBtnRoot = {  Cancel: "/admin/popup/cancelprocess",
+          const bottomBtnRoot = {  Cancel: "/admin/popup/generatereport",
                                 Back: "/admin/otp",
-                                Continue: "/admin/manageinventoey"};
+                                Continue: "/admin/popup/printsuccesful"};
           const imageData = "Bill1.png"; // Assuming you have a report image in your public folder                      
   return (
     <>

@@ -3,9 +3,9 @@ import MedicineForm from '@/components/form/page'
 import React from 'react'
 // import MedicineForm from '../components/MedicineForm';
 function AddInventory() {
-     const bottomBtnRoot = {  Cancel: "/admin/popup/cancelprocess",
+     const bottomBtnRoot = {  Cancel: "/admin/popup/addinventory",
                                 Back: "/admin/report",
-                                Continue: "/admin/popup/manageinventoey"};
+                                Continue: "/admin/popup/addsuccessfull"};
 
   return (
     <>

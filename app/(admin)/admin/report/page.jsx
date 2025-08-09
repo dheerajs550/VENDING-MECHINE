@@ -15,7 +15,7 @@ function Report() {
                  
        const HeadingText =   {  HeadingText1: "Welcome Owner Name!",};
 
-       const bottomBtnRoot = {  Cancel: "/admin/popup/cancelprocess",
+       const bottomBtnRoot = {  Cancel: "/admin/popup/reportcancel",
                                 Back: "/admin/otp",
                                 Continue: "/admin/manageinventoey"};
 
