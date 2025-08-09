@@ -31,7 +31,6 @@ const PopUp = async (props)=> {
   yestxt:"YES"
 } 
  const urlData3={
-  no:"/",
   yes:"/user/help",
   yestxt:"OK"
 }

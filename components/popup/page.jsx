@@ -17,8 +17,8 @@ const ConfirmPopup = ({ data ,urlData}) => {
   
     <div className=' flex justify-between px-3'>
 
-    <SinglBtn data={urlData.no} btnname={urlData.notxt}/>
-     <SinglBtn data={urlData.yes} btnname={urlData.yestxt}/>
+     {(urlData.no && <SinglBtn data={urlData.no} btnname={urlData.notxt}/>)}
+    {(urlData.yes && <SinglBtn data={urlData.yes} btnname={urlData.yestxt}/>)}
     </div>
       </div>)}
    </>
